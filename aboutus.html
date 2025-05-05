@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        /* Extra small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+    .about-title {
+        font-size: 22px;
+    }
+
+    .about-section {
+        padding: 30px 15px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    .stats-box h3 {
+        font-size: 28px;
+    }
+
+    .skills img {
+        width: 40px;
+        margin: 5px;
+    }
+
+    .profile-pic img {
+        width: 150px;
+    }
+}
+
+/* Small devices (tablets, ≥576px and <768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about-title {
+        font-size: 24px;
+    }
+
+    .about-section {
+        padding: 40px 20px;
+    }
+
+    .about-content p {
+        font-size: 15px;
+    }
+
+    .skills img {
+        width: 50px;
+    }
+
+    .profile-pic img {
+        width: 200px;
+    }
+}
+
+/* Medium devices (laptops, ≥768px and <992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-title {
+        font-size: 26px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .skills img {
+        width: 60px;
+    }
+
+    .profile-pic img {
+        width: 250px;
+    }
+}
+
+        /* Navbar Customization */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    color: #00BFFF !important;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00BFFF !important;
+}
+
+        /* Custom Styling */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .about-section {
+            padding: 50px 0;
+            margin-top: 15px;
+        }
+
+        .about-title {
+            color: #00BFFF;
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        .about-content p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .highlight {
+            color: #00BFFF;
+            font-weight: bold;
+        }
+
+        .stats-box {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        .stats-box h3 {
+            font-size: 36px;
+            color: #00BFFF;
+            margin-bottom: 10px;
+        }
+
+        .stats-box p {
+            margin: 0;
+        }
+
+        .skills img {
+            width: 60px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <!-- Brand Name -->
+        <a class="navbar-brand fw-bold" href="#">MUSTKIM NOORANI</a>
+        
+        <!-- Hamburger Icon for Mobile View -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <!-- Header -->
+            <h1 class="text-center about-title mb-5">LEARN MORE ABOUT ME</h1>
+            <div class="row align-items-center">
+                <!-- Profile Image -->
+                <div class="col-md-4 text-center">
+                    <div class="profile-pic">
+                        <img src="assets/images/IMG_20211203_151325_776.jpg" class="img-fluid" alt="Profile Picture">
+                    </div>
+                </div>
+                <!-- About Info -->
+                <div class="col-md-8">
+                    <h3 class="highlight">Full  Stack Developer</h3>
+                    <p>
+                        Hi, I'm Mustkim Noorani, a passionate web developer with expertise in modern web technologies like 
+                        HTML, CSS, JavaScript, PHP,Reactjs and React-native. I create visually appealing, user-friendly, and responsive websites.                    </p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><span class="highlight">Birthday:</span> 12 April 2004</p>
+                            <p><span class="highlight">Website:</span> Mustkimnoorani</p>
+                            <p><span class="highlight">Phone:</span> 8849223631</p>
+                            <p><span class="highlight">City:</span> Dhoraji, India</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><span class="highlight">Age:</span> 21</p>
+                            <p><span class="highlight">Degree:</span> Bachelor of Computer Application</p>
+                            <p><span class="highlight">Email:</span> musunoorani@gmail.com</p>
+                            <p><span class="highlight">Freelance:</span> Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Statistics Section -->
+            <!-- <div class="row text-center mt-5">
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <h3>5</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <h3>8</h3>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <h3>521</h3>
+                        <p>Hours of Support</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <h3>3</h3>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Skills Section -->
+<div class="skills mt-5 text-center">
+    <h3 class="highlight mb-4">Lerning Languages</h3>
+    HTML 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" width="80" class="mx-3">
+    CSS 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" width="80" class="mx-3">
+    JS
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="80" class="mx-3">
+    bootstrap
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" width="80" class="mx-3">
+
+     React Native 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Native" width="80" class="mx-3">
+     PHP 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" width="80" class="mx-3">
+
+</div>
+
+</body>
+</html>
